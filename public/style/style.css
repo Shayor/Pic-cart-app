@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    /* height: 50px; */
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 3px 0px 5px #000000;
+    padding: 20px;
+}
+.header-text{
+    padding-bottom: 20px;
+}
+.header p{
+    float: left;
+}
+span.cart{
+    float: right;
+    color: #6633dd;
+}
+.banner{
+    width: 100%;
+    /* height: 300px; */
+    padding: 120px 0px;
+    background-color: #6633dd;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.banner h2{
+    font-weight: 600;
+}
+.banner p{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.card{
+    position: relative;
+}
+.card img{
+    max-width: 100%;
+}
+.card:hover .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000000;
+    /* z-index: 1; */
+    opacity: 0.7;
+}
+.favourite{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    z-index: 999;
+    color: #ffffff;
+    padding: 10px;
+}
+.red{
+    color: red;
+}
+.add, .added {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    z-index: 999;
+    color: #ffffff;
+    padding: 10px;
+}
+.cart{
+    position: relative;
+}
+.count{
+    position: absolute;
+    top: -5px;
+    /* right: 0.5px; */
+    font-size: 10px;
+    font-family:'Open Sans', sans-serif; 
+    padding:3px 5px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+.cartPage{
+    font-family:'Open Sans', sans-serif; 
+    padding: 5px 20px;
+    width: 70%;
+    margin: auto;
+}
+.cartPage h2{
+    text-align: center;
+}
+.cartItem img{
+    width: 100px;
+    margin: 10px;
+    /* float: left; */
+}
+.cartItem .delete{
+    /* float: right; */
+    margin: 40px;
+}
+.cartItem .price{
+    float: right;
+    margin-top: 50px;
+}
+.totalAmount{
+    width: 15%;
+    float: right;
+    padding: 5px 10px;
+}
